@@ -15,7 +15,7 @@ To get started with this project, follow these steps:
 
 bash
 Copy code
-git clone https://github.com/yourusername/college-counseling-chatbot.git
+git clone https://github.com/praveency041/college_counseling_chatbot.git
 
 
 -->Modify the chatbot's responses by editing the long_responses.py file. You can add keywords and their corresponding replies in this file.
