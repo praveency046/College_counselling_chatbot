@@ -1,49 +1,83 @@
+# College Counseling Chatbot
 
-                                                            College_counselling_chatbot
+## Overview
+This is a sample project for creating a single college counseling chatbot. The chatbot is designed to provide keyword-based replies to user queries related to college counseling. If the chatbot cannot understand the user's query, it will prompt the user to visit the college counseling website for further information.
 
---> Project Overview
-          This is a sample project for creating a single college counseling chatbot. The chatbot is designed to provide keyword-based replies to user queries related to college counseling. If the chatbot cannot understand the user's query, it will prompt the user to visit the website for further information.
+---
 
---> Features
-          Keyword-based replies: The chatbot responds to specific keywords and phrases commonly used in college counseling queries.
-Easy to modify: You can easily customize the chatbot's responses and add your own keywords and replies.
-Website prompt: If the chatbot cannot answer a query, it suggests visiting the college counseling website for more information.
-Getting Started
-To get started with this project, follow these steps:
+## Features
 
---> Clone the repository to your local machine:
+- **Keyword-based replies:** The chatbot responds to specific keywords and phrases commonly used in college counseling queries.
+- **Easy to modify:** You can easily customize the chatbot's responses and add your own keywords and replies.
+- **Website prompt:** If the chatbot cannot answer a query, it suggests visiting the college counseling website for more information.
 
-bash
-Copy code
+---
+
+## Getting Started
+
+### Prerequisites
+To run this project, make sure you have the following installed on your machine:
+
+- Python 3.x
+
+### Steps to Start the Project
+
+1. Clone the repository to your local machine:
+
+```bash
 git clone https://github.com/praveency041/college_counseling_chatbot.git
+```
 
+2. Modify the chatbot's responses:
 
--->Modify the chatbot's responses by editing the long_responses.py file. You can add keywords and their corresponding replies in this file.
+   Edit the `long_responses.py` file to add keywords and their corresponding replies.
 
--->Customize the chatbot's behavior by editing the chatbot script (college_counselling_chatbot.py). You can modify the logic for handling user queries and generating responses.
+3. Customize the chatbot's behavior:
 
--->To Run the chatbot:
+   Edit the `college_counselling_chatbot.py` file to modify the logic for handling user queries and generating responses.
 
-..python chatbot.py
-..Interact with the chatbot by typing in queries and observing its responses.
+4. Run the chatbot:
 
--->Usage
-Here's how to use the chatbot:
+```bash
+python chatbot.py
+```
 
-Start the chatbot by running python chatbot.py.
+5. Interact with the chatbot:
 
-Enter your questions or queries when prompted.
+   Enter your questions or queries when prompted, and observe its responses.
 
-The chatbot will analyze your input and provide a relevant response based on the keywords in your query.
+---
 
-If the chatbot cannot understand the query, it will suggest visiting the college counseling website for further information.
+## Usage
 
--->Customization
-You can customize the chatbot by editing the following files:
+### How to Use the Chatbot
 
-long_responses.py: Add keywords and their corresponding responses.
-chatbot.py: Modify the logic for processing user queries and generating responses.
-Feel free to tailor the chatbot to your specific needs and add more functionality if desired.
+1. Start the chatbot by running the following command:
 
-Acknowledgments
-Thanks to the open-source chatbot community for providing inspiration and resources.
+   ```bash
+   python chatbot.py
+   ```
+
+2. Type in your questions or queries when prompted.
+
+3. The chatbot will analyze your input and provide a relevant response based on the keywords in your query.
+
+4. If the chatbot cannot understand your query, it will suggest visiting the college counseling website for more information.
+
+---
+
+## Customization
+
+You can tailor the chatbot to your specific needs by editing the following files:
+
+1. **`long_responses.py`:** Add keywords and their corresponding responses.
+2. **`college_counselling_chatbot.py`:** Modify the logic for processing user queries and generating responses.
+
+Feel free to add more functionality and enhance the chatbot as required.
+
+---
+
+## Acknowledgments
+
+Thanks to the open-source chatbot community for providing inspiration and resources that helped in creating this project.
+
