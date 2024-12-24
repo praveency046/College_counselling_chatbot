@@ -25,7 +25,7 @@ To run this project, make sure you have the following installed on your machine:
 1. Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/praveency041/college_counseling_chatbot.git
+git clone https://github.com/praveency046/college_counseling_chatbot.git
 ```
 
 2. Modify the chatbot's responses:
